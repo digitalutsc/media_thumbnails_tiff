@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Generate custom thumbnails for tiff media entities.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ *
+ * {@inheritDoc}
+ */
+function media_thumbnails_tiff_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.media_thumbnails_tiff':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The Media Thumbnails tiff module generates thumbnails for tiff media entities.') . '</p>';
+      return $output;
+  }
+}
