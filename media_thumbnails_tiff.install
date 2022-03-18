@@ -17,7 +17,7 @@ function media_thumbnails_tiff_requirements($phase) {
   ];
   if (!$has_imagick) {
     $requirements['imagick']['severity'] = REQUIREMENT_ERROR;
-    $requirements['imagick']['description'] = t('The Media Thumbnails PDF module requires the <a href="https://www.php.net/manual/en/book.imagick.php">ImageMagick PHP extension</a>.');
+    $requirements['imagick']['description'] = t('The Media Thumbnails Tiff module requires the <a href="https://www.php.net/manual/en/book.imagick.php">ImageMagick PHP extension</a>.');
   }
   return $requirements;
 }
