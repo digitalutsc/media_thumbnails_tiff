@@ -6,5 +6,3 @@ That way you can add the media entity 'thumbnail' field to Views or Media entity
 ## Requirements
 * drupal/media_thumbnails
 * ImageMagick php extension
-* ImageMagick and Ghostscript (PDF support) binaries for your operating system
-
