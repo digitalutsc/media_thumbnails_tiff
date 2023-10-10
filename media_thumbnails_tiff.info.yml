@@ -1,7 +1,7 @@
 name: Media Thumbnails Tiff
 type: module
 description: Generate custom thumbnails for Tiff media entities
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 package: Media
 dependencies:
   - media_thumbnails:media_thumbnails
