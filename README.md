@@ -3,6 +3,6 @@ This module uses the <a href="https://www.drupal.org/project/media_thumbnails">M
 
 That way you can add the media entity 'thumbnail' field to Views or Media entity display modes, optionally add an image style and get preview images for tiff files.
 
-## Requirements
+## Requirements 
 * drupal/media_thumbnails
 * ImageMagick php extension
