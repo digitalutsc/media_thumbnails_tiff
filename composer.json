@@ -1,0 +1,10 @@
+{
+  "name": "drupal/media_thumbnails_tiff",
+  "type": "drupal-module",
+  "description": "Generate custom thumbnails for Tiff media entities",
+  "keywords": ["Drupal"],
+  "require": {
+    "drupal/core": "^8 || ^9 || ^10 || ^11",
+    "drupal/media_thumbnails": "2.0"
+  }
+}
